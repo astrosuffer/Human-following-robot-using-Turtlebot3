@@ -1,0 +1,8 @@
+prefix=/home/varma/catkin_ws/install
+
+Name: turtlebot3_human_tracking
+Description: Description of turtlebot3_human_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
