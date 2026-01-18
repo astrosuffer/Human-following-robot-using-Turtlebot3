@@ -1,0 +1,33 @@
+Terminal 1
+
+sourceos/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export TURTLEBOT3_MODEL=waffle 
+roscore
+
+
+Terminal 2:
+
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_human_tracking turtlebot3_follow_person.launch
+
+Terminal 3:
+
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+cd ~/catkin_ws/src/turtlebot_human_tracking
+export TURTLEBOT3_MODEL=waffle
+chmod +x scripts/human_tracking.py
+ls -l scripts/human_tracking.py
+
+
+cd ~/catkin_ws
+catkin_make
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+chmod +x scripts/human_tracking.py
+rosrun turtlebot3_human_tracking human_tracking.py
+
+
