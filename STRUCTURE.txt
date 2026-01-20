@@ -1,0 +1,22 @@
+.
+├── .catkin_workspace
+├── CMakeLists.txt -> /opt/ros/noetic/share/catkin/cmake/toplevel.cmake
+├── README.md
+├── run.txt
+├── STRUCTURE.txt
+└── turtlebot_human_tracking
+    ├── CMakeLists.txt
+    ├── launch
+    │   ├── turtlebot3_follow_person.launch
+    │   └── turtlebot3_map_without_people.launch
+    ├── package.xml
+    ├── scripts
+    │   └── human_tracking.py
+    ├── trained_network
+    │   ├── MobileNetSSD_deploy.caffemodel
+    │   └── MobileNetSSD_deploy.prototxt.txt
+    └── worlds
+        ├── world_without_people.world
+        └── world_with_people.world
+
+5 directories, 14 files
