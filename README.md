@@ -15,9 +15,6 @@ The project is designed to be **reproducible from this repository alone**: it in
 - [How to Verify / Debug](#how-to-verify--debug)
 - [Parameters / Tuning](#parameters--tuning)
 - [Limitations](#limitations)
-- [Meaningful Commit History](#meaningful-commit-history)
-- [License](#license)
-- [Author](#author)
 
 ---
 
